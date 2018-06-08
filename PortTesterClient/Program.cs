@@ -2,13 +2,14 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Net;
     using System.Threading;
 
     using PortTesterServiceProxy;
 
     internal class Program
     {
-        private static readonly string ClientId = $"PortTesterServer:{Guid.NewGuid()}";
+        private static readonly string ClientId = Dns.GetHostName();
 
         private static void Main(string[] args)
         {
