@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9b2e84d2-2e61-472d-b49d-fb4f8100e5f2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8009/PortTesterService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="com.soumya.porttester.wsdl" MetadataType="Wsdl" ID="1d989303-c7cd-4bde-a0bf-2481d0b565e4" SourceId="1" SourceUrl="net.tcp://localhost:8009/PortTesterService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6610eff0-c24f-4c80-834f-5a7e77b1e874" SourceId="1" SourceUrl="net.tcp://localhost:8009/PortTesterService/mex" />
+    <MetadataFile FileName="com.soumya.porttester.xsd" MetadataType="Schema" ID="1ef7e756-5be3-426a-a98c-61be33d157af" SourceId="1" SourceUrl="net.tcp://localhost:8009/PortTesterService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="fceb530e-c316-4d59-8f55-19354419796c" SourceId="1" SourceUrl="net.tcp://localhost:8009/PortTesterService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
